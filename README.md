@@ -2,7 +2,7 @@
 A beautiful SkyBlock stats website for Docker 🌹 by https://sky.lea.moe/ @https://github.com/LeaPhant/skyblock-stats
 
 ## Genereal
-This is dome sort of a wrapper to automatically build the latest docker container for Lea's awesome sources.
+This is some sort of a wrapper to automatically build the latest docker container for Lea's awesome sources.
 
 ## docker-compose.yml
 To set up a working demo of this stats page, use a reverse proxy and create some ssl certificates.
