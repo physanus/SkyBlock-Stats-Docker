@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+git -C files/skyblock-stats/ pull || git clone https://github.com/LeaPhant/skyblock-stats.git files/skyblock-stats/
+
+docker build -t skyblock-stats .
