@@ -15,9 +15,6 @@ RUN ls -la
 RUN sed -i 's/32464/80/g' index.js && \
     sed -i 's/32464/80/g' README.md && \
     npm install
-#    echo hi
-
-RUN ls -la
 
 
 ADD files/start.sh .
