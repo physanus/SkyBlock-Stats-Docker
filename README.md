@@ -54,7 +54,7 @@ services:
       - '/var/run/docker.sock:/var/run/docker.sock:ro'
 
   skyblock-stats:
-    image: skyblock-stats
+    image: physanus/skyblock-stats:latest
     restart: always
     container_name: skyblock-stats
     volumes:
@@ -74,6 +74,7 @@ volumes:
   nginx-vhosts:
   nginx-webroot:
   nginx-well-known:
+    driver: local
 ```
 
 Find the nginx.tmpl [here](https://github.com/jwilder/nginx-proxy/blob/master/nginx.tmpl).
