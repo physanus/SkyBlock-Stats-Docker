@@ -12,7 +12,7 @@ ADD files/skyblock-stats .
 
 RUN ls -la
 
-RUN sed -i 's/32464/80/g' index.js && \
+RUN sed -i 's/32464/80/g' src/app.js && \
     sed -i 's/32464/80/g' README.md && \
     npm install
 
